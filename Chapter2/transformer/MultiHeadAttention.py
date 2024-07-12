@@ -58,7 +58,7 @@ class MultiHeadAttention(nn.Module):
 
         # Transpose for attention dot product: b x n x lq x dv
         q, k, v = q.transpose(1, 2), k.transpose(1, 2), v.transpose(1, 2)
-
+        
         if mask is not None:
             mask = mask.unsqueeze(1)   # For head axis broadcasting.
 
@@ -76,7 +76,7 @@ class MultiHeadAttention(nn.Module):
 
 
 def main():
-    mth = MultiHeadAttention(2, 2, 2, 2)
+    mth = MultiHeadAttention(3, 2, 4, 5)
 
     token = torch.tensor([[[1, 1], [2, 2]]], dtype=torch.float32)
     

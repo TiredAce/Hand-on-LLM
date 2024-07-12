@@ -3,7 +3,7 @@ import torch.nn as nn
 import math
 import numpy as np
 
-class MyPositionalEncoder(nn.Module):
+class PositionalEncoder(nn.Module):
     def __init__(self, d_model, max_seq_len = 80):
         super().__init__()
         self.d_model = d_model
@@ -26,7 +26,7 @@ class MyPositionalEncoder(nn.Module):
     
 
 def main():
-    pe = MyPositionalEncoder(4)
+    pe = PositionalEncoder(4)
 
     token = torch.tensor([[[1, 1, 1, 1], [2, 2, 2, 2], [3, 3, 3, 3] ]], dtype=torch.float32)
     

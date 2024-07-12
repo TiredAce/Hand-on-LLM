@@ -2,7 +2,7 @@
 
 ## Catalog
 
-* [Chapter2 Large Language Model Fundamentals](./Chapter2)
+* [Section2: Large Language Model Fundamentals](./Chapter2)
 
 ## Overall
 
