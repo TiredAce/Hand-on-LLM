@@ -10,8 +10,9 @@
 
 ## Hand On LLM architeture
 
-* [Transformer from scratch](./Transformer%20from%20scratch/Transformer%20from%20scratch.ipynb): A detail and intuitive explanation of the Transformer model from scratch.
+* [Transformer from scratch](./Transformer%20from%20scratch/Transformer%20from%20scratch.ipynb): A detailed and intuitive code of the Transformer architecture from scratch.
 
-* [Decoding Strategies in LLMs](./Decoding%20Strategies%20in%20LLMs/Decoding%20Strategies%20in%20LLMs.ipynb): Provide code to different strategies to generate text.
+* [Decoding Strategies in LLMs](./Decoding%20Strategies%20in%20LLMs/Decoding%20Strategies%20in%20LLMs.ipynb): Provide code to different strategies to generate text using the GPT-2 model.
 
+* [nanoGPT](./nanoGPT/nanoGPT.ipynb): A 2h-long YouTube video to reimplement GPT from scratch (for programmers).
 
